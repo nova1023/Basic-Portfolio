@@ -41,6 +41,7 @@ header {
 	color: #ffffff;
 	width: 250px;
 	height: 100%;
+	font-size: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -51,7 +52,7 @@ ul {
 	list-style-type: none;
 	position: absolute;
 	right: 12%;
-	top: 35%;
+	top: 40%;
 }
 
 .headerlinks {
@@ -62,11 +63,11 @@ ul {
 	border-left: 2px #cccccc solid;
 	border-right: 2px #cccccc solid;
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 8px;
 }
 
 #about {
-	padding-right: 10px;
+	padding-right: 9px;
 }
 
 #contact {
@@ -89,6 +90,7 @@ ul {
 	padding: 30px 20px 20px 0px;
 	border-bottom: 2px #dddddd solid;
 	color: #4aaaa5;
+	font-size: 20px;
 
 }
 
@@ -114,32 +116,37 @@ ul {
 	margin: 10px 0px 10px 13px;
 }
 
+.connectionsimages:hover {
+	border: 2px #4aaaa5 solid;
+}
+
 #connections {
 	position: absolute;
 	background-color: #ffffff;
 	width: 270px;
 	border: 2px #dddddd solid;
 	top: 120px;
-	right: 10%;
+	right: 9.5%;
 }
 
 #connectwithme {
 	color: #4aaaa5;
 	border-bottom: 2px #dddddd solid;
 	text-align: center;
-	margin: 20px 15px 20px 15px;
+	margin: 15px 15px 20px 15px;
 	padding: 10px 0px 20px 0px;
+	font-size: 20px;
 }
 
 /*End of links to me. Start of footer.*/
 
 .wrapper {
 	min-height: 100%;
-	margin: 0 auto -1px;
+	margin: 0 auto 50px;
 }
 
 .footer, .push {
-	height: 1px;
+	height: -50px;
 }
 
 footer {
