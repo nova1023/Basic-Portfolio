@@ -68,7 +68,7 @@ ul {
 
 /*Start of main content*/
 
-#mainContent {
+.mainContent {
 	width: 650px;
 	background-color: #ffffff;
 	border: 2px #dddddd solid;
@@ -82,7 +82,7 @@ ul {
 	padding: 30px 20px 20px 0px;
 	border-bottom: 2px #dddddd solid;
 	color: #4aaaa5;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 #hangman, #trivia, #rpg, #rutgers, #rps {
@@ -151,7 +151,7 @@ ul {
 }
 
 .connectionsimages:hover {
-	border: 2px #4aaaa5 solid;
+	box-shadow: 6px 6px 5px grey;
 }
 
 #connections {
@@ -169,8 +169,7 @@ ul {
 	text-align: center;
 	margin: 15px 15px 20px 15px;
 	padding: 10px 0px 20px 0px;
-	font-size: 20px;
-
+	font-size: 25px;
 }
 
 
