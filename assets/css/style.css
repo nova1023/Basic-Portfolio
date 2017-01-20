@@ -1,17 +1,9 @@
-* {
-	margin: 0;
-}
 
-html {
-	height: 100%;
-}
-
-body {
+html, body {
 	position: relative;
 	background-image: url('../images/backgroundpattern.png');
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	height: 100%;
-	margin: 0 0 100px;
 }
 
 h2, a {
@@ -59,7 +51,7 @@ ul {
 	display: inline;
 }
 
-#portfolio {
+#portfoliolink {
 	border-left: 2px #cccccc solid;
 	border-right: 2px #cccccc solid;
 	padding-left: 10px;
@@ -126,7 +118,7 @@ ul {
 	width: 270px;
 	border: 2px #dddddd solid;
 	top: 120px;
-	right: 9.5%;
+	right: 10%;
 }
 
 #connectwithme {
@@ -142,11 +134,11 @@ ul {
 
 .wrapper {
 	min-height: 100%;
-	margin: 0 auto 50px;
+	margin: 0 auto -80px;
 }
 
 .footer, .push {
-	height: -50px;
+	height: 80px;
 }
 
 footer {
